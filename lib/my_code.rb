@@ -47,9 +47,19 @@ end
 def reduce_to_total(array, starting_point = 0)
 i = 0
 total = 0
-while i < array.length do
-  total += array[i]
-  i += 1
+if starting_point > 0 do
+  total = starting_point
+  while i < array.length do
+    total += array[i]
+    i += 1
+  end
+  return total
+else
+  while i < array.length do
+    total += array[i]
+    i += 1
+  end
 end
 return total
+
 end
