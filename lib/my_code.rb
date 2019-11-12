@@ -14,7 +14,7 @@ end
 
 
 def map_to_no_change(array)
-new array = []
+new_array = []
 i = 0
   while i < array.length do
     new_array[i] = array[i]
