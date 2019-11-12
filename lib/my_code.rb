@@ -74,3 +74,12 @@ def reduce_to_all_true(array)
   end
     return true
 end
+
+def reduce_to_all_true(array)
+  i = 0
+  while i<array.length
+    return true if array[i]
+    i+= 1
+  end
+    return false
+end
