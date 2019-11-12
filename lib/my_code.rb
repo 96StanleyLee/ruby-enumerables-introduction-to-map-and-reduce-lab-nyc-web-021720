@@ -31,4 +31,14 @@ i = 0
     i+=1
   end
 return new_array
-end 
+end
+
+def map_to_square
+  new_array = []
+  i = 0
+    while i < array.length do
+      new_array[i] = (array[i] * array[i])
+      i+=1
+    end
+  return new_array
+  end
