@@ -33,7 +33,7 @@ i = 0
 return new_array
 end
 
-def map_to_square
+def map_to_square(array)
   new_array = []
   i = 0
     while i < array.length do
