@@ -11,3 +11,14 @@ i = 0
   end
 return new_array
 end
+
+
+def map_to_no_change(array)
+new array = []
+i = 0
+  while i < array.length do
+    new_array[i] = array[i]
+    i += 1
+  end
+return new_array
+end
