@@ -41,4 +41,4 @@ def map_to_square(array)
       i+=1
     end
   return new_array
-  end
+end
